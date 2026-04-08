@@ -234,8 +234,8 @@ incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrciqdepth/refs
 5.  On the lower ribbon of your **KQL database**, click on **Get data**,
     then select **Local file** to upload files from your local system
     into the database.
-    ![A screenshot of a computer AI-generated content
-    may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrciqdepth/refs/heads/main/Cloud_slice/Labguides/Usecase%2001/media/image34.png)
+    
+    ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrciqdepth/refs/heads/main/Cloud_slice/Labguides/Usecase%2001/media/image34.png)
 
 7.  Select the target option to ingest data into a new table, click +
     New table, and enter a table name as +++**FreezerTelemetry**+++.
@@ -253,15 +253,14 @@ incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrciqdepth/refs
 incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrciqdepth/refs/heads/main/Cloud_slice/Labguides/Usecase%2001/media/image37.png)
 
 9.  Browse to **C:\Lab Files\Cloud_slice\LabFiles\Lab1** on your VM, then
-    select ***FreezerTelemetry*.csv** file and click on **Open** button.
+    select **FreezerTelemetry.csv** file and click on **Open** button.
 
     ![A screenshot of a computer AI-generated content may be
 incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrciqdepth/refs/heads/main/Cloud_slice/Labguides/Usecase%2001/media/image38.png)
 
 10.  Click on **Next** button
 
-    ![A screenshot of a computer AI-generated content may be
-incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrciqdepth/refs/heads/main/Cloud_slice/Labguides/Usecase%2001/media/image39.png)
+     ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrciqdepth/refs/heads/main/Cloud_slice/Labguides/Usecase%2001/media/image39.png)
 
 11. Then click on the **Finish** button.
 
@@ -294,7 +293,7 @@ incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrciqdepth/refs
     ![A screenshot of a computer AI-generated content may be
 incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrciqdepth/refs/heads/main/Cloud_slice/Labguides/Usecase%2001/media/image44.png)
 
-2.  Enter +++**RetailSalesOntology**+++ for the **Name** of your
+2.  Enter +++RetailSalesOntology+++ for the **Name** of your
     ontology and select **Create**.
 
     ![A screenshot of a computer AI-generated content may be
@@ -327,7 +326,7 @@ the ***IQ_Lakehouse*** lakehouse tables.
     ![A screenshot of a computer AI-generated content may be
 incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrciqdepth/refs/heads/main/Cloud_slice/Labguides/Usecase%2001/media/image47.png)
 
-2.  Enter +++**Store**+++for the name of your entity type and
+2.  Enter +++Store+++ for the name of your entity type and
     select **Add Entity Type**.
 
     ![A screenshot of a computer AI-generated content may be
@@ -519,9 +518,9 @@ incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrciqdepth/refs
     ![A screenshot of a computer AI-generated content may be
 incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrciqdepth/refs/heads/main/Cloud_slice/Labguides/Usecase%2001/media/image79.png)
 
-Now the first relationship is created, and bound to data in your
-source table. Continue to the next section to create another
-relationship type.
+	Now the first relationship is created, and bound to data in your
+	source table. Continue to the next section to create another
+	relationship type.
 
 ### Products soldIn SaleEvent
 

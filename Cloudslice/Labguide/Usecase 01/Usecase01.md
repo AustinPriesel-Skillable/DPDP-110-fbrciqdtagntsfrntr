@@ -492,9 +492,9 @@ incorrect.](https://raw.githubusercontent.com/technofocus-pte/msfbrciqdepth/refs
     select **Create**.
 
     1.  **Source data**: Select your tutorial workspace,
-        the **IQ_Lakehouse**  lakehouse, and the **factsales** table.
+        the **Fabric IQ Ontology_Lakehouse**  lakehouse, and the **factsales** table.
         This table in the source data can
-        link **Store **and **SaleEvent** entities together, because it
+        link **Store** and **SaleEvent** entities together, because it
         contains identifying information for both entity types. Each row
         in this table references a store and a sale event by ID.
 

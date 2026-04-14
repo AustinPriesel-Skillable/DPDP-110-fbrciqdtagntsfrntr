@@ -90,12 +90,12 @@ in Fabric.
 
 3.  From the Azure portal home page, click on **Azure portal
     menu** represented by three horizontal bars on the left side of the
-    Microsoft Azure command bar. Select SQL database
+    Microsoft Azure command bar. Select **Azure SQL database**.
 
     ![A screenshot of a computer AI-generated content may be
 incorrect.](https://raw.githubusercontent.com/technofocus-pte/fbrciqdtagntsfrntr/refs/heads/main/Cloudslice/Labguide/Usecase%2003/media/image6.png)
 
-3.  Click on **+ Create**
+3.  Click on **+ Create**, select **SQL Database**.
 
     ![](https://raw.githubusercontent.com/technofocus-pte/fbrciqdtagntsfrntr/refs/heads/main/Cloudslice/Labguide/Usecase%2003/media/image7.png)
 
@@ -105,12 +105,13 @@ incorrect.](https://raw.githubusercontent.com/technofocus-pte/fbrciqdtagntsfrntr
 
     | Setting | Value  |
     |--------|----------------|
-    | Subscription | Select your subscription |
-    | Resource group | Select your Resource group |
+    | Subscription | @lab.CloudSubscription.Name |
+    | Resource group | @lab.CloudResourceGroup(ResourceGroup1).Name |
     | Database name | +++sqldatabase@lab.labinstance.id+++ |
     | Server | Select **Create new** |
     | Server name | +++sqlserver@lab.labinstance.id+++ |
-    | Location | Southeast Asia |
+    | Location | @lab.CloudResourceGroup(ResourceGroup1).Location |
+    | Authentication Method | **Use SQL Authentication** |
     | Server admin login | +++sqladmin+++ |
     | Password | +++password321!+++ |
     | Confirm password | +++password321!+++ |
@@ -122,56 +123,56 @@ incorrect.](https://raw.githubusercontent.com/technofocus-pte/fbrciqdtagntsfrntr
     ![A screenshot of a computer AI-generated content may be
 incorrect.](https://raw.githubusercontent.com/technofocus-pte/fbrciqdtagntsfrntr/refs/heads/main/Cloudslice/Labguide/Usecase%2003/media/image9.png)
 
-5.  In the Compute + Storage section, click on **Configure database**.
+6.  In the Compute + Storage section, click on **Configure database**.
 
     ![](https://raw.githubusercontent.com/technofocus-pte/fbrciqdtagntsfrntr/refs/heads/main/Cloudslice/Labguide/Usecase%2003/media/image10.png)
 
-6.  For Service tier from the dropdown select **Standard(Budget
-    Friendly) and for DTU enter 100 **and click** Apply**
+7.  For Service tier from the dropdown select **Standard(Budget
+    Friendly) and for DTU enter +++100+++ and click **Apply**.
 
     ![](https://raw.githubusercontent.com/technofocus-pte/fbrciqdtagntsfrntr/refs/heads/main/Cloudslice/Labguide/Usecase%2003/media/image11.png)
 
     ![](https://raw.githubusercontent.com/technofocus-pte/fbrciqdtagntsfrntr/refs/heads/main/Cloudslice/Labguide/Usecase%2003/media/image12.png)
 
-7.  On the **Networking** tab, select **Public endpoint**, set **Allow
+8.  On the **Networking** tab, select **Public endpoint**, set **Allow
     Azure services and resources** to **Yes**, enable **Add current
     client IP address**, and then click **Next: Security\>**
 
     ![](https://raw.githubusercontent.com/technofocus-pte/fbrciqdtagntsfrntr/refs/heads/main/Cloudslice/Labguide/Usecase%2003/media/image13.png)
 
-8.  On the **Security** page, after reviewing, select **Next :
+9.  On the **Security** page, after reviewing, select **Next :
     Additional settings**
 
     ![](https://raw.githubusercontent.com/technofocus-pte/fbrciqdtagntsfrntr/refs/heads/main/Cloudslice/Labguide/Usecase%2003/media/image14.png)
 
-9.  On the *Additional settings* tab, select **Sample** under *Use
+10.  On the *Additional settings* tab, select **Sample** under *Use
     existing data*, choose **AdventureWorksLT** when prompted, click
     **OK**, and then select **Review + create** to proceed.
 
     ![](https://raw.githubusercontent.com/technofocus-pte/fbrciqdtagntsfrntr/refs/heads/main/Cloudslice/Labguide/Usecase%2003/media/image15.png)
 
-10. On the **Review + create** page, after reviewing, select **Create**
+11. On the **Review + create** page, after reviewing, select **Create**
 
     ![](https://raw.githubusercontent.com/technofocus-pte/fbrciqdtagntsfrntr/refs/heads/main/Cloudslice/Labguide/Usecase%2003/media/image16.png)
 
     ![](https://raw.githubusercontent.com/technofocus-pte/fbrciqdtagntsfrntr/refs/heads/main/Cloudslice/Labguide/Usecase%2003/media/image17.png)
 
-11. On **Microsoft.SQLDatabase** window, after the deployment is
+12. On **Microsoft.SQLDatabase** window, after the deployment is
     completed, click on the **Go to resource** button.
 
     ![](https://raw.githubusercontent.com/technofocus-pte/fbrciqdtagntsfrntr/refs/heads/main/Cloudslice/Labguide/Usecase%2003/media/image18.png)
 
-12. In SQL database page select **Query editor**.
+13. In SQL database page select **Query editor**.
 
     ![](https://raw.githubusercontent.com/technofocus-pte/fbrciqdtagntsfrntr/refs/heads/main/Cloudslice/Labguide/Usecase%2003/media/image19.png)
 
-13. In the **Query editor (preview)**, enter the SQL
+14. In the **Query editor (preview)**, enter the SQL
     server **login** as +++sqladmin+++ and **password** as +++password321!+++,
     then click **OK** to connect to the database.
 
     ![](https://raw.githubusercontent.com/technofocus-pte/fbrciqdtagntsfrntr/refs/heads/main/Cloudslice/Labguide/Usecase%2003/media/image20.png)
 
-14. Make sure all the sample tables have been successfully
+15. Make sure all the sample tables have been successfully
     deployed.
 
     ![](https://raw.githubusercontent.com/technofocus-pte/fbrciqdtagntsfrntr/refs/heads/main/Cloudslice/Labguide/Usecase%2003/media/image21.png)
@@ -264,7 +265,7 @@ mirrored database, and validate that the data has synced successfully.
 
     ![](https://raw.githubusercontent.com/technofocus-pte/fbrciqdtagntsfrntr/refs/heads/main/Cloudslice/Labguide/Usecase%2003/media/image34.png)
 
-1.  In the **Filter by keyword** search box, enter +++Mirroed Azure
+1.  In the **Filter by keyword** search box, enter +++Mirrored Azure
     SQL Database+++ and select the **Mirroed Azure SQL Database**
     item.
 
@@ -281,7 +282,7 @@ mirrored database, and validate that the data has synced successfully.
     | Field | Value |
     |------|-------|
     | Server | SQL server URL saved in **Task 2 → Step 15** |
-    | Database | Enter your SQL database |
+    | Database | +++sqldatabase@lab.labinstance.id+++ |
     | Username | +++sqladmin+++ |
     | Password | +++password321!+++ |
 

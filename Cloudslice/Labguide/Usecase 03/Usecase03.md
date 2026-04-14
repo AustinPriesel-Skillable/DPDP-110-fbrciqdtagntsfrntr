@@ -128,7 +128,7 @@ incorrect.](https://raw.githubusercontent.com/technofocus-pte/fbrciqdtagntsfrntr
     ![](https://raw.githubusercontent.com/technofocus-pte/fbrciqdtagntsfrntr/refs/heads/main/Cloudslice/Labguide/Usecase%2003/media/image10.png)
 
 7.  For Service tier from the dropdown select **Standard(Budget
-    Friendly) and for DTU enter +++100+++ and click **Apply**.
+    Friendly)** and for DTU enter +++100+++ and click **Apply**.
 
     ![](https://raw.githubusercontent.com/technofocus-pte/fbrciqdtagntsfrntr/refs/heads/main/Cloudslice/Labguide/Usecase%2003/media/image11.png)
 

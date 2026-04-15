@@ -117,7 +117,7 @@ In this task, you create a new **Github account** with the same tenant
 credentials that you have used in this lab.
 
 1.  Navigate to the GitHub with this link
-    +++=https://github.com/+++ and click on **Sign up** to proceed
+    +++https://github.com/+++ and click on **Sign up** to proceed
     further.
 
     ![A screenshot of a computer AI-generated content may be

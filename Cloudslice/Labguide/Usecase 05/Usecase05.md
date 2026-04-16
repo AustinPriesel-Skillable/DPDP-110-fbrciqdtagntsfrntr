@@ -254,8 +254,7 @@ incorrect.](https://raw.githubusercontent.com/technofocus-pte/fbrciqdtagntsfrntr
 5.  When you first ask the questions with the listed tables select **all
     tables** the data agent answers them fairly well.
 
-6.  For instance, for the question +++Who are the top 10 customers by
-    total purchase amount?+++
+6.  For instance, for the question +++Who are the top 10 customers by total purchase amount?+++
 
     ![](https://raw.githubusercontent.com/technofocus-pte/fbrciqdtagntsfrntr/refs/heads/main/Cloudslice/Labguide/Usecase%2005/media/image35.png)
 

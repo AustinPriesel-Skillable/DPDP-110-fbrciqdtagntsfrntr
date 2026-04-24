@@ -231,7 +231,9 @@ solution.
 4.  Wait for the Codespaces environment to setup. It takes few minutes
     to setup completely
 
-    ![](https://raw.githubusercontent.com/technofocus-pte/fbrciqdtagntsfrntr/refs/heads/main/Cloudslice/Labguide/Usecase%2004/media/image17.png)     ![](https://raw.githubusercontent.com/technofocus-pte/fbrciqdtagntsfrntr/refs/heads/main/Cloudslice/Labguide/Usecase%2004/media/image18.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/fbrciqdtagntsfrntr/refs/heads/main/Cloudslice/Labguide/Usecase%2004/media/image17.png)
+
+    ![](https://raw.githubusercontent.com/technofocus-pte/fbrciqdtagntsfrntr/refs/heads/main/Cloudslice/Labguide/Usecase%2004/media/image18.png)
 
     ![](https://raw.githubusercontent.com/technofocus-pte/fbrciqdtagntsfrntr/refs/heads/main/Cloudslice/Labguide/Usecase%2004/media/image19.png)
 
@@ -288,7 +290,7 @@ solution.
 9.  Select below values.
 
     - **To create an environment for Azure resources**,
-      enter +++Fabricagent@lab.LabInstance.Id+++
+      enter +++agent@lab.LabInstance.Id+++
     
     - **Select an Azure Subscription to
       use** : **@lab.CloudSubscription.Name**

@@ -279,7 +279,7 @@ solution.
 
     ![](https://raw.githubusercontent.com/technofocus-pte/fbrciqdtagntsfrntr/refs/heads/main/Cloudslice/Labguide/Usecase%2004/media/image28.png)
 
-	>[!alert] Inside the **Infra** folder, go to line 127 on the **main.bicep** file and switch the @labInstanceId string to +++@lab.LabInstance.Id+++.
+	>[!alert] Navigate to the **Infra** folder on the left hand side, open the **main.bicep** file on **line 127** and switch the *Lab Instance ID* string to +++@lab.LabInstance.Id+++.
 	
 8.  Provision and deploy all the resources:
 

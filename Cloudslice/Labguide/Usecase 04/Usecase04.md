@@ -290,7 +290,7 @@ solution.
 9.  Select below values.
 
     - **To create an environment for Azure resources**,
-      enter +++agent@lab.LabInstance.Id+++
+      enter +++env@lab.LabInstance.Id+++
     
     - **Select an Azure Subscription to
       use** : **@lab.CloudSubscription.Name**
